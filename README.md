@@ -1,9 +1,9 @@
 # Home-Credit-Default-Risk
 Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
 
-# 🏦 Home Credit Default Risk – Kaggle Project  
+#  Home Credit Default Risk – Kaggle Project  
 
-## 📌 Overview  
+##  Overview  
 This project tackles the **Home Credit Default Risk** challenge from Kaggle.  
 The goal is to predict whether a client will **repay (0)** or **default (1)** on a loan using demographic, financial, and historical credit data.  
 
@@ -11,7 +11,7 @@ By improving risk prediction, financial institutions like **Home Credit Group** 
 
 ---
 
-## 🔹 Steps in the Project  
+##  Steps in the Project  
 1. **Data Loading** – Imported training & test datasets (`application_train.csv`, `application_test.csv`).  
 2. **Preprocessing** –  
    - Removed ID columns  
@@ -25,7 +25,7 @@ By improving risk prediction, financial institutions like **Home Credit Group** 
 
 ---
 
-## 📊 Results  
+##  Results  
 - **Logistic Regression AUC**: ~0.62 (baseline)  
 - **LightGBM AUC**: ~0.75 (optimized)  
 - **Insights**:  
@@ -34,7 +34,7 @@ By improving risk prediction, financial institutions like **Home Credit Group** 
 
 ---
 
-## 🚀 Business Impact  
+##  Business Impact  
 - Enables better loan approval strategies:  
   - **Low risk (<5%)** → Approve normally ✅  
   - **Medium risk (5–15%)** → Approve with caution ⚠️  
@@ -43,14 +43,14 @@ By improving risk prediction, financial institutions like **Home Credit Group** 
 
 ---
 
-## 📂 Files in Repository  
+##  Files in Repository  
 - `HomeCredit_Notebook.ipynb` → Jupyter Notebook with full analysis & modeling  
 - `submission.csv` → Kaggle-ready predictions file  
 - `README.md` → Project documentation  
 
 ---
 
-## 🛠️ Tech Stack  
+##  Tech Stack  
 - **Python**  
 - **Pandas, NumPy, Matplotlib, Seaborn**  
 - **Scikit-learn** (Logistic Regression, preprocessing)  
@@ -58,7 +58,7 @@ By improving risk prediction, financial institutions like **Home Credit Group** 
 
 ---
 
-## 📌 Next Steps  
+## Next Steps  
 - Feature engineering with additional datasets (`bureau.csv`, `previous_application.csv`, `installments_payments.csv`)  
 - Hyperparameter tuning with **Optuna/RandomSearch**  
 - Handling class imbalance with **SMOTE / class weights**  
