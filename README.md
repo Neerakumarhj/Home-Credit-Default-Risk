@@ -36,9 +36,9 @@ By improving risk prediction, financial institutions like **Home Credit Group** 
 
 ##  Business Impact  
 - Enables better loan approval strategies:  
-  - **Low risk (<5%)** → Approve normally ✅  
-  - **Medium risk (5–15%)** → Approve with caution ⚠️  
-  - **High risk (>15%)** → Reject or stricter terms ❌  
+  - **Low risk (<5%)** → Approve normally   
+  - **Medium risk (5–15%)** → Approve with caution   
+  - **High risk (>15%)** → Reject or stricter terms   
 - Helps Home Credit support **financial inclusion** while managing default risk.  
 
 ---
